@@ -1,0 +1,74 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	background-color: black;
+	letter-spacing: .1rem;
+	color: white;
+}
+
+.homePage {
+    margin: auto;
+	width: max-content;
+	background-color: black;
+}
+
+/* Start of NavBar */
+.menuContainer {
+	padding-left: 0px;
+	display: block;
+    text-align: right;
+	width: 1650px;
+}
+.menuLinks {
+	list-style-type: none;
+	padding: 15px;
+	margin: 0px;
+}
+.menuLinks li {
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.menuLinks li a{
+    text-decoration: none;
+	color: white;
+}
+/* End of NavBar */
+
+/* Start of HomePage */
+.mainContent {
+	height: 1100px;
+	width: 1900px;
+    background-image: url(MiguelBackGround.jpg);
+	padding-left: 40px;
+}
+.leftSideContent {
+	width: 700px;
+	padding-top: 16%;
+	margin-left: 5rem;
+}
+#firstSent {
+	color: white;
+	font-weight: 700;
+	font-size: 32px;
+	padding-bottom: 17px;
+	font-family: 'Secular One', sans-serif;
+}
+#descriptionOne {
+	color: white;
+	font-weight: 550;
+	font-size: 23px;
+	padding-bottom: 17px;
+}
+#descriptionTwo {
+	color: white;
+	font-size: 19px;
+}
+.copyRightSection {
+	height: 70px;
+	text-align: center;
+	align-content: center;
+	padding-top: 55px;
+}
