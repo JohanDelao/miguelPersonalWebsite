@@ -1,85 +1,63 @@
-/* Start of General Attributes */
-body {
-	font-family: 'Ubuntu', sans-serif;
-	background-color: black;
-	letter-spacing: .1rem;
-	color: white;
-}
-/* End of General Attributes */
-
-/* Start of NavBar */
-.menuContainer {
-	padding-left: 0px;
-	display: block;
-    text-align: right;
-	width: 1170px;
-}
-.menuLinks {
-	list-style-type: none;
-	padding: 15px;
-	margin: 0px;
-}
-.menuLinks li {
-	display: inline-block;
-	padding-left: 15px;
-	padding-right: 15px;
-	font-weight: 900;
-	font-size: 17px;
-}
-
-.menuLinks li a{
-    text-decoration: none;
-	color: white;
-}
-/* End of NavBar */
-
-/* Start of HomePage */
-.homePage {
+/* Start of Nav Bar attributes */
+nav {
+    width: 1170px;
     margin: auto;
-	width: max-content;
-	background-color: black;
+	
 }
-.mainContent {
-	height: 600px;
-	width: 1170px;
-    background-image: url(miguelBackgroundBlack.jpeg);
-	padding-left: 40px;
+.navList {
+    list-style: none;
 }
-.leftSideContent {
-	width: 450px;
-	padding-top: 16%;
-	margin-left: 5rem;
+.navList li{
+    display: inline-block;
+    padding-right: 20px;
 }
-#firstSent {
-	color: white;
-	font-weight: 700;
-	font-size: 24px;
-	padding-bottom: 17px;
-	font-family: 'Secular One', sans-serif;
-}
-#descriptionOne {
-	color: white;
-	font-weight: 550;
-	font-size: 18px;
-	padding-bottom: 17px;
-}
-#descriptionTwo {
-	color: white;
-	font-size: 15px;
-}
-.copyRightSection {
-	height: 70px;
-	text-align: center;
-	align-content: center;
-	padding-top: 55px;
-	font-size: 12px;
-}
-/* End of Home Page */
 
-/* Start of Contact Page Attributes */
-.aboutContent {
-	padding-top: 50px;
-	width: 1170px;
-	margin: auto;
+.navList li a{
+    text-decoration: none;
+    color: white;
 }
-/* End of Contact Page Attributes */
+
+.navbar-dark .navbar-brand {
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.navList li a:hover{
+    font-size: 20px;
+    font-weight: 700;
+}
+/* End of NavBar Attributes */
+
+/* Content */
+.container {
+	height: 608px;
+	margin-top: 25px;
+}
+#contentHP {
+	padding-top: 175px;
+	padding-left: 100px;
+	width: 550px;
+	color: white;
+}
+#contentHP h3{
+	font-size: 24px;
+	font-weight: 800;
+	letter-spacing: .05rem;
+}
+#contentHP h4{
+	font-size: 18px;
+	font-weight: 500;
+}
+#contentHP h5{
+	font-size: 16px;
+	font-weight: 400;
+}
+#copyrightSection {
+	background-color: rgb(32, 32, 32);;
+	height: 160px;
+	text-align: center;
+}
+#copyrightSection p{
+	padding-top: 60px;
+}
