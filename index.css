@@ -41,23 +41,64 @@ nav {
 	color: white;
 }
 #contentHP h3{
-	font-size: 24px;
+	font-size: 28px;
 	font-weight: 800;
 	letter-spacing: .05rem;
 }
-#contentHP h4{
+/* #contentHP h4{
 	font-size: 18px;
 	font-weight: 500;
 }
 #contentHP h5{
 	font-size: 16px;
 	font-weight: 400;
+} */
+/* End of Content */
+
+/* Start of About Me attributes */
+#titleAboutMe {
+	padding: 50px;
+	text-align: center;
 }
+#titleAboutMe p{
+	color: white;
+	font-size: 24px;
+	font-weight: 800;
+	text-decoration-line: underline;
+	text-underline-offset: 10px;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.col h5 {
+	font-size: 20px;
+	font-weight: 900;
+	padding-bottom: 5px;
+	
+}
+.col h6 {
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+.col h7 {
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+#textAbout {
+	text-align: justify;
+}
+/* End of About Me attributes */
+
 #copyrightSection {
 	background-color: rgb(32, 32, 32);;
 	height: 160px;
 	text-align: center;
 }
 #copyrightSection p{
-	padding-top: 60px;
+	padding-top: 75px;
+	font-size: 14px;
 }
