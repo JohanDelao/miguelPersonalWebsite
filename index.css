@@ -27,12 +27,17 @@ nav {
     font-size: 20px;
     font-weight: 700;
 }
+
+.navbar-dark .navbar-brand:hover{
+	font-size: 25px;
+}
 /* End of NavBar Attributes */
 
 /* Content */
 .container {
 	height: 608px;
 	margin-top: 25px;
+	margin-top: 75px;
 }
 #contentHP {
 	padding-top: 175px;
@@ -42,19 +47,10 @@ nav {
 }
 #contentHP h3{
 	font-size: 28px;
-	font-weight: 800;
+	font-weight: 650;
 	letter-spacing: .05rem;
-}
-/* #contentHP h4{
-	font-size: 18px;
-	font-weight: 500;
-}
-#contentHP h5{
-	font-size: 16px;
-	font-weight: 400;
-} */
-/* End of Content */
 
+}
 /* Start of About Me attributes */
 #titleAboutMe {
 	padding: 50px;
@@ -93,12 +89,29 @@ nav {
 }
 /* End of About Me attributes */
 
+/* Start of Contact Me attributes */
+#titleContactMe {
+	padding: 50px;
+	text-align: center;
+}
+
+#titleContactMe p{
+	color: white;
+	font-size: 24px;
+	font-weight: 800;
+	text-decoration-line: underline;
+	text-underline-offset: 10px;
+}
+/* End of Contact Me attributes */
+
+/* Start of Copyright attributes */
 #copyrightSection {
-	background-color: rgb(32, 32, 32);;
-	height: 160px;
+	background-color: black;
+	height: 100px;
 	text-align: center;
 }
 #copyrightSection p{
-	padding-top: 75px;
+	padding-top: 40px;
 	font-size: 14px;
 }
+/* End of Copyright attributes */
