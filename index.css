@@ -102,7 +102,34 @@ nav {
 	text-decoration-line: underline;
 	text-underline-offset: 10px;
 }
+#textContact {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
 /* End of Contact Me attributes */
+
+/* Start of Resume attributes */
+#titleResume {
+	padding: 50px;
+	text-align: center;
+}
+#titleResume p{
+	color: white;
+	font-size: 24px;
+	font-weight: 800;
+	text-decoration-line: underline;
+	text-underline-offset: 10px;
+}
+.leftTextResume {
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+/* End of Resume attributes */
 
 /* Start of Copyright attributes */
 #copyrightSection {
