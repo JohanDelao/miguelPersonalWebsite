@@ -1,5 +1,5 @@
 # miguelPersonalWebsite
 
-Hello! This is a website I made for my cousin, check it out here: https://www.miguelblancotheactor.com/about.html
+Hello! This is a website I made for my cousin, check it out here: https://www.miguelblancotheactor.com/index.html
 
 Thanks!
